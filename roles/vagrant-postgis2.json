@@ -1,0 +1,22 @@
+{
+    "name": "vagrant-postgis2",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+      "postgresql": {
+            "version": "9.1",
+            "listen_addresses": "*",
+            "ssl": false,
+            "password": {
+                "postgres": "postgres"
+            }
+        }  
+    },
+    "description": "Ready to use PostgreSQL+PostGIS2 VM",
+    "run_list": [
+        "recipe[apt]",
+        "recipe[main]"
+    ]
+}
