@@ -8,6 +8,7 @@ Installation
 ============
 
 * `git clone git@github.com:rogelio2k/vagrant-postgis2.git` (clone the project)
+* `cd vagrant-postgis2` (move into the project directory)
 * `git submodule init` (initialise git submodules)
 * `git submodule update` (update git submodules)
 * `vagrant up` (start using it!)
