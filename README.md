@@ -11,6 +11,7 @@ Installation
 * `cd vagrant-postgis2` (move into the project directory)
 * `git submodule init` (initialise git submodules)
 * `git submodule update` (update git submodules)
+* `git submodule -q foreach git pull -q origin master` (optional, pull the latest version of the submodules)
 * `vagrant up` (start using it!)
 
 License and Author
