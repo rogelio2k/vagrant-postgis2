@@ -1,7 +1,7 @@
 Description
 ===========
 
-Vagrant box (pecise64) ready to use with PostgreSQL 9.1 + PostGIS 2 (configured to allow remote connections)
+Vagrant box (pecise64) ready to use with PostgreSQL 9.1 + PostGIS 2 (configured to allow remote connections).
 
 
 Installation
@@ -13,7 +13,7 @@ Installation
 * `git submodule update` (update git submodules)
 * `vagrant up` (start using it!)
 
-The new vagrant VM will be ready to accept incoming connections on `localhost` post `5432`. The default password for the postgres user is `postgres`
+The new vagrant VM will be ready to accept incoming connections on `localhost` post `5432`. The default password for the postgres user is `postgres`.
 
 
 License and Author
