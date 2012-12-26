@@ -3,16 +3,13 @@
     "chef_type": "role",
     "json_class": "Chef::Role",
     "default_attributes": {
-    },
-    "override_attributes": {
-      "postgresql": {
-            "version": "9.1",
-            "listen_addresses": "*",
-            "ssl": false,
+        "postgresql": {
             "password": {
                 "postgres": "postgres"
             }
-        }  
+        } 
+    },
+    "override_attributes": {
     },
     "description": "Ready to use PostgreSQL+PostGIS2 VM",
     "run_list": [
