@@ -1,6 +1,6 @@
 [submodule "cookbooks/postgis2"]
 	path = cookbooks/postgis2
-	url = git@github.com:rogelio2k/chef-cookbook-postgis2.git
+	url = https://github.com/rogelio2k/chef-cookbook-postgis2.git
 [submodule "cookbooks/apt"]
 	path = cookbooks/apt
 	url = git://github.com/opscode-cookbooks/apt.git
