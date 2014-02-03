@@ -15,6 +15,7 @@ Installation
 
 The new vagrant VM will be ready to accept incoming connections on `localhost` post `5432`. The default password for the `postgres` user is `postgres`.
 
+To connect from the host machine, use 22.22.22.22:5432 with the same username and passward. 
 
 License and Author
 ==================
